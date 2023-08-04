@@ -1,0 +1,13 @@
+{
+  "name": "@canvas-ds/react",
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@canvas-ds/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

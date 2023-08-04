@@ -1,0 +1,12 @@
+{
+  "name": "@canvas-ds/storybook",
+  "packageManager": "yarn@3.6.1",
+  "private": true,
+  "dependencies": {
+    "@canvas-ds/foundation": "workspace:^",
+    "@canvas-ds/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

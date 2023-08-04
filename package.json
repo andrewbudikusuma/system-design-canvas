@@ -1,0 +1,11 @@
+{
+  "name": "system-design-canvas",
+  "packageManager": "yarn@3.6.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
