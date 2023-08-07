@@ -2,7 +2,8 @@
   "name": "@canvas-ds/foundation",
   "packageManager": "yarn@3.6.1",
   "scripts": {
-    "build-tokens": "style-dictionary build --config sd.config.js"
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc"
   },
   "devDependencies": {
     "style-dictionary": "^3.8.0",
