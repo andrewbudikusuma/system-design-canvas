@@ -126,8 +126,8 @@ dist
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
-.yarn/install-state.gz
 .pnp.*
 
 packages/**/lib/
 .DS_Store
+.idea/*
