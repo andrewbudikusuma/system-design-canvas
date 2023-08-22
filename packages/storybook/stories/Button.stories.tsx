@@ -13,5 +13,5 @@ const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  children: 'Demo Button',
+  children: 'Demo Button Example',
 };
