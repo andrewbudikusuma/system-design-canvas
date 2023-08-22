@@ -5,11 +5,16 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@canvas-ds/foundation": "workspace:^"
+    "@canvas-ds/foundation": "workspace:^",
+    "styled-components": "^6.0.7"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@types/styled-components": "^5.1.26",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.6"

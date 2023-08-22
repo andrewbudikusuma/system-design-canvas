@@ -3,8 +3,11 @@
   "packageManager": "yarn@3.6.1",
   "scripts": {
     "build-tokens": "style-dictionary build --config sd.config.js",
-    "build": "yarn build-tokens && tsc"
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck"
   },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "devDependencies": {
     "style-dictionary": "^3.8.0",
     "typescript": "^5.1.6"
