@@ -1,4 +1,4 @@
-import { join, dirname } from 'path';
+import { dirname, join } from 'path';
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -8,7 +8,7 @@ function getAbsolutePath(value) {
   return dirname(require.resolve(join(value, 'package.json')));
 }
 
-/** @type { import('@storybook/react-webpack5').StorybookConfig } */
+/** @type { import("@storybook/react-webpack5").StorybookConfig } */
 const config = {
   stories: [
     '../stories/**/*.mdx',
@@ -27,6 +27,10 @@ const config = {
   },
   docs: {
     autodocs: 'tag',
+  },
+  babel: async (options) => {
+    options.presets.push('@babel/preset-typescript');
+    return options;
   },
 };
 export default config;
