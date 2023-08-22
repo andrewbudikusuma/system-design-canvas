@@ -2,7 +2,9 @@
   "name": "@canvas-ds/react",
   "packageManager": "yarn@3.6.1",
   "scripts": {
-    "build": "tsc"
+    "build": "yarn build:css && tsc",
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./lib/output.css --watch",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./lib/output.css"
   },
   "dependencies": {
     "@canvas-ds/foundation": "workspace:^",
@@ -17,6 +19,7 @@
     "@types/styled-components": "^5.1.26",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6"
   },
   "peerDependencies": {
