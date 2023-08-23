@@ -2,7 +2,6 @@
   "name": "@canvas-ds/storybook",
   "packageManager": "yarn@3.6.1",
   "private": true,
-  "version": null,
   "dependencies": {
     "@canvas-ds/foundation": "workspace:^",
     "@canvas-ds/react": "workspace:^"
@@ -20,7 +19,6 @@
     "@storybook/react": "^7.3.2",
     "@storybook/react-webpack5": "^7.3.2",
     "@storybook/testing-library": "^0.2.0",
-    "chromatic": "^6.23.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,9 +26,6 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN"
-  },
-  "readme": "ERROR: No README data found!",
-  "_id": "@canvas-ds/storybook@"
+    "build-storybook": "storybook build"
+  }
 }
