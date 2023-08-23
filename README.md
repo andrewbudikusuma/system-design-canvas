@@ -43,6 +43,8 @@ You can run Storybook and instantly start experimenting with the components' cod
 yarn workspace @canvas-ds/storybook storybook
 ```
 
+You can look up example storybook in https://canvas-andrew-storybook.surge.sh
+
 ## Stacks and Technologies
 
 - monorepo with yarn workspaces
